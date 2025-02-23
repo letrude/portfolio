@@ -236,10 +236,12 @@ article p {
   font-size: 30px;
   margin: 0 0 0 90px;
 }
+
 .contact-text {
   padding-left: 15px;
   display: inline-block;
 }
+
 .contact-text h4 {
   color: #fff;
   font-size: 20px;
@@ -247,6 +249,7 @@ article p {
   margin-bottom: 2px;
   margin-top: 0;
 }
+
 .contact-text span {
   color: #757575;
   font-size: 15px;
@@ -555,12 +558,8 @@ article p {
         flex-direction: column-reverse;
     }
 
-    .gradiant_right {
-        right: auto;
-    }
-
     #first_frame {
-        height: 925px;
+        height: 955px;
     }
 
     #second_frame {
@@ -573,6 +572,7 @@ article p {
 
     .progress-bar {
         height: 35px;
+        width: 90%;
     }
 
     .progress {
@@ -586,10 +586,49 @@ article p {
         font-size: 33px;
     }
 
+    .rating {
+        margin-left: 130px;
+    }
+
     .rate h2 {
         font-size: 50px;
     }
+
     #rate_div p {
         font-size: 27px;
+    }
+
+    #foot {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #foot div {
+        width: 400px;
+    }
+
+    .forflex {
+        padding-top: 200px;
+    }
+
+    footer {
+        height: 60vh;
+    }
+
+    header {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    header a, header h1 {
+        width: 30%;
+        margin: 0;
+    }
+
+    .buttons {
+        margin-bottom: 45px;
     }
 }

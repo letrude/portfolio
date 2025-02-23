@@ -455,6 +455,10 @@ article p {
         padding: 0 60px 0 60px;
     }
 
+    article p {
+        font-size: 18px;
+    }
+
     .image_left {
         width: 480px;
         height: 480px;
@@ -489,6 +493,7 @@ article p {
 
     #rate_div p {
         max-width: 85%;
+        font-size: 22px;
     }
 
     .progress-bar {
@@ -519,7 +524,7 @@ article p {
         flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
-        min-height: 100vh;
+        min-height: 1400px;
     }
 
     #title {
@@ -583,5 +588,8 @@ article p {
 
     .rate h2 {
         font-size: 50px;
+    }
+    #rate_div p {
+        font-size: 27px;
     }
 }

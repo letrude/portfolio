@@ -579,7 +579,7 @@ article p {
 
     #a_article {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     #first_frame {
@@ -628,6 +628,16 @@ article p {
         border-top-left-radius: 7px;
         border-bottom-left-radius: 7px;
     }
+    
+    #a_article > img {
+        order: 1;
+        -webkit-order : 1;
+    }
+
+    #a_article > div {
+        order: 2;
+        -webkit-order : 2;
+    }
 
     .image_right {
         border-top-left-radius: 7px;
@@ -642,5 +652,9 @@ article p {
     .image_left {
         border-top-right-radius: 7px;
         border-bottom-right-radius: 7px;
+    }
+
+    #rate_div h1 {
+        padding-right: 80px;
     }
 }

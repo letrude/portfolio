@@ -501,46 +501,34 @@ h3 {
 
 @media screen and (max-width: 1100px) {
     header {
-        justify-content: space-around;
-        height: 160px;
-        font-size: 23px;
-    }
-
-    header a {
-        font-size: 31px;
-    }
-
-    header p {
-        font-size: 31px;
-    }
-    
-    #foot {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-    #foot div {
-        width: 400px;
-    }
-
-    .forflex {
-        padding-top: 200px;
-    }
-
-    footer {
-        height: 60vh;
-    }
-
-    header {
+        height: 100px;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
         text-align: center;
     }
 
+    header a {
+        font-size: 27px;
+    }
+
+    header h1 {
+        font-size: 35px;
+    }
+    
     header a, header h1 {
         width: 30%;
         margin: 0;
+    }
+    
+    #foot {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #foot div {
+        width: 40%;
     }
 }

@@ -531,4 +531,78 @@ h3 {
     #foot div {
         width: 40%;
     }
+
+    h2 {
+        font-size: 58px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        height: 80px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    header a {
+        font-size: 20px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    #foot {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    #foot div {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .contact i {
+        margin: 17% 0 3% 0;
+    }
+
+    .contact-text {
+        padding: 0;
+    }
+
+    div h1 {
+        font-size: 45px;
+        margin: 0 25px 0 25px ;
+    }
+
+    img {
+        margin-top: 60px;
+    }
+
+    main {
+        margin-top: 150px;
+    }
+
+    h3 {
+        margin-right: 25px;
+        font-size: 32px;
+    }
+
+    h2 {
+        margin-right: 25px;
+        font-size: 42px;
+    }
 }

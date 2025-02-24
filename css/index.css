@@ -595,7 +595,7 @@ article p {
     }
 
     .rate { 
-        width: 500px;
+        width: 80%;
     }
 
     .progress-bar {
@@ -657,4 +657,129 @@ article p {
     #rate_div h1 {
         padding-right: 80px;
     }
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        height: 80px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    header a {
+        font-size: 20px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    #pc {
+        width: 300px;
+    }
+
+    #photo {
+        width: 236px;
+        margin-left: 32px;
+        margin-top: 9px;
+    }
+
+    #gradiant {
+        width: 236px;
+        height: 134.844px;
+        margin-left: 32px;
+        margin-top: 9px;
+    }
+
+    #soluce {
+        width: 300px;
+    }
+
+    #presentation {
+        height: 950px;
+    }
+
+    #foot {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    #foot div {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .contact i {
+        margin: 17% 0 3% 0;
+    }
+
+    .contact-text {
+        padding: 0;
+    }
+
+    .image_left {
+        width: 290px;
+        height: 290px;
+    }
+
+    .image_right {
+        width: 290px;
+        height: 290px;
+    }
+
+    .gradiant_left {
+        width: 290px;
+        height: 290px;
+    }
+
+    .gradiant_right {
+        width: 290px;
+        height: 290px;
+    }
+    
+    #rate_div {
+        padding: 100px 0 0 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #rate_div h1 {
+        padding: 0;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    #first_frame {
+        height: 970px;
+    }
+
+    #second_frame {
+        height: 1000px;
+    }
+
+    #third_frame {
+        height: 830px;
+    }
+
+    h2 {
+        font-size: 37px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
 }

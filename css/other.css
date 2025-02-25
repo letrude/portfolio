@@ -386,6 +386,7 @@ article p {
 
 #foot-text {
     color: rgba(255, 255, 255, 0.5);
+    font-size: 19px;
 }
 
 @keyframes reveal {
@@ -478,6 +479,7 @@ h3 {
     #foot-text {
         width: 100%;
         text-align: center;
+        font-size: 16px;
     }
 
     p {
@@ -495,6 +497,23 @@ h3 {
 
     #text {
         margin-left: 8%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    #foot {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    #foot div {
+        width: 40%;
+    }
+
+    .forflex {
+        margin-top: 100px;
     }
 }
 
@@ -520,20 +539,40 @@ h3 {
         width: 30%;
         margin: 0;
     }
-    
+}
+
+@media screen and (max-width: 850px) {
     #foot {
         display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
     }
 
     #foot div {
-        width: 40%;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .forflex {
+        margin-top: 0;
     }
 
-    h2 {
-        font-size: 58px;
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .contact i {
+        margin: 33px 0 7px 0;
+    }
+
+    .contact-text {
+        padding: 0;
     }
 }
 
@@ -553,35 +592,6 @@ h3 {
 
     header h1 {
         font-size: 28px;
-    }
-
-    #foot {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-    }
-
-    #foot div {
-        width: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .contact {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .contact i {
-        margin: 17% 0 3% 0;
-    }
-
-    .contact-text {
-        padding: 0;
     }
 
     div h1 {
@@ -605,5 +615,19 @@ h3 {
     h2 {
         margin-right: 25px;
         font-size: 42px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    header a {
+        font-size: 18px;
+    }
+
+    .contact i {
+        margin: 28px 0 5px 0;
     }
 }

@@ -222,24 +222,27 @@ article p {
 }
 
 .contact i {
-  color: rgb(213 72 87);
-  font-size: 30px;
-  margin: 0 0 0 90px;
+    color: rgb(213 72 87);
+    font-size: 30px;
+    margin: 0 0 0 90px;
 }
 .contact-text {
-  padding-left: 15px;
-  display: inline-block;
+    padding-left: 15px;
+    display: inline-block;
 }
 .contact-text h4 {
-  color: #fff;
-  font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 2px;
-  margin-top: 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 2px;
+    margin-top: 0;
 }
 .contact-text span {
-  color: #757575;
-  font-size: 15px;
+    text-decoration: none;
+    pointer-events: none;
+    cursor: default;
+    color: #757575;
+    font-size: 15px;
 }
 
 #rate_div {
